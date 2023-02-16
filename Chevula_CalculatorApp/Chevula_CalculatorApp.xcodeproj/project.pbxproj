@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A19B1F299DA4E500473D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A19B1E299DA4E500473D2D /* AppDelegate.swift */; };
+		79A19B21299DA4E500473D2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A19B20299DA4E500473D2D /* SceneDelegate.swift */; };
+		79A19B23299DA4E500473D2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A19B22299DA4E500473D2D /* ViewController.swift */; };
+		79A19B26299DA4E500473D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A19B24299DA4E500473D2D /* Main.storyboard */; };
+		79A19B28299DA4E700473D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A19B27299DA4E700473D2D /* Assets.xcassets */; };
+		79A19B2B299DA4E700473D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A19B29299DA4E700473D2D /* LaunchScreen.storyboard */; };
+		79A19B36299DA4E700473D2D /* Chevula_CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A19B35299DA4E700473D2D /* Chevula_CalculatorAppTests.swift */; };
+		79A19B40299DA4E700473D2D /* Chevula_CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A19B3F299DA4E700473D2D /* Chevula_CalculatorAppUITests.swift */; };
+		79A19B42299DA4E700473D2D /* Chevula_CalculatorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A19B41299DA4E700473D2D /* Chevula_CalculatorAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79A19B32299DA4E700473D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A19B13299DA4E500473D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A19B1A299DA4E500473D2D;
+			remoteInfo = Chevula_CalculatorApp;
+		};
+		79A19B3C299DA4E700473D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A19B13299DA4E500473D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A19B1A299DA4E500473D2D;
+			remoteInfo = Chevula_CalculatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79A19B1B299DA4E500473D2D /* Chevula_CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chevula_CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A19B1E299DA4E500473D2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79A19B20299DA4E500473D2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79A19B22299DA4E500473D2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79A19B25299DA4E500473D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A19B27299DA4E700473D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A19B2A299DA4E700473D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79A19B2C299DA4E700473D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A19B31299DA4E700473D2D /* Chevula_CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chevula_CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A19B35299DA4E700473D2D /* Chevula_CalculatorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevula_CalculatorAppTests.swift; sourceTree = "<group>"; };
+		79A19B3B299DA4E700473D2D /* Chevula_CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chevula_CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A19B3F299DA4E700473D2D /* Chevula_CalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevula_CalculatorAppUITests.swift; sourceTree = "<group>"; };
+		79A19B41299DA4E700473D2D /* Chevula_CalculatorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevula_CalculatorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A19B18299DA4E500473D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A19B2E299DA4E700473D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A19B38299DA4E700473D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A19B12299DA4E500473D2D = {
+			isa = PBXGroup;
+			children = (
+				79A19B1D299DA4E500473D2D /* Chevula_CalculatorApp */,
+				79A19B34299DA4E700473D2D /* Chevula_CalculatorAppTests */,
+				79A19B3E299DA4E700473D2D /* Chevula_CalculatorAppUITests */,
+				79A19B1C299DA4E500473D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A19B1C299DA4E500473D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A19B1B299DA4E500473D2D /* Chevula_CalculatorApp.app */,
+				79A19B31299DA4E700473D2D /* Chevula_CalculatorAppTests.xctest */,
+				79A19B3B299DA4E700473D2D /* Chevula_CalculatorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A19B1D299DA4E500473D2D /* Chevula_CalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				79A19B1E299DA4E500473D2D /* AppDelegate.swift */,
+				79A19B20299DA4E500473D2D /* SceneDelegate.swift */,
+				79A19B22299DA4E500473D2D /* ViewController.swift */,
+				79A19B24299DA4E500473D2D /* Main.storyboard */,
+				79A19B27299DA4E700473D2D /* Assets.xcassets */,
+				79A19B29299DA4E700473D2D /* LaunchScreen.storyboard */,
+				79A19B2C299DA4E700473D2D /* Info.plist */,
+			);
+			path = Chevula_CalculatorApp;
+			sourceTree = "<group>";
+		};
+		79A19B34299DA4E700473D2D /* Chevula_CalculatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				79A19B35299DA4E700473D2D /* Chevula_CalculatorAppTests.swift */,
+			);
+			path = Chevula_CalculatorAppTests;
+			sourceTree = "<group>";
+		};
+		79A19B3E299DA4E700473D2D /* Chevula_CalculatorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79A19B3F299DA4E700473D2D /* Chevula_CalculatorAppUITests.swift */,
+				79A19B41299DA4E700473D2D /* Chevula_CalculatorAppUITestsLaunchTests.swift */,
+			);
+			path = Chevula_CalculatorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A19B1A299DA4E500473D2D /* Chevula_CalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A19B45299DA4E700473D2D /* Build configuration list for PBXNativeTarget "Chevula_CalculatorApp" */;
+			buildPhases = (
+				79A19B17299DA4E500473D2D /* Sources */,
+				79A19B18299DA4E500473D2D /* Frameworks */,
+				79A19B19299DA4E500473D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chevula_CalculatorApp;
+			productName = Chevula_CalculatorApp;
+			productReference = 79A19B1B299DA4E500473D2D /* Chevula_CalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79A19B30299DA4E700473D2D /* Chevula_CalculatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A19B48299DA4E700473D2D /* Build configuration list for PBXNativeTarget "Chevula_CalculatorAppTests" */;
+			buildPhases = (
+				79A19B2D299DA4E700473D2D /* Sources */,
+				79A19B2E299DA4E700473D2D /* Frameworks */,
+				79A19B2F299DA4E700473D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A19B33299DA4E700473D2D /* PBXTargetDependency */,
+			);
+			name = Chevula_CalculatorAppTests;
+			productName = Chevula_CalculatorAppTests;
+			productReference = 79A19B31299DA4E700473D2D /* Chevula_CalculatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A19B3A299DA4E700473D2D /* Chevula_CalculatorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A19B4B299DA4E700473D2D /* Build configuration list for PBXNativeTarget "Chevula_CalculatorAppUITests" */;
+			buildPhases = (
+				79A19B37299DA4E700473D2D /* Sources */,
+				79A19B38299DA4E700473D2D /* Frameworks */,
+				79A19B39299DA4E700473D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A19B3D299DA4E700473D2D /* PBXTargetDependency */,
+			);
+			name = Chevula_CalculatorAppUITests;
+			productName = Chevula_CalculatorAppUITests;
+			productReference = 79A19B3B299DA4E700473D2D /* Chevula_CalculatorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A19B13299DA4E500473D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					79A19B1A299DA4E500473D2D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					79A19B30299DA4E700473D2D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 79A19B1A299DA4E500473D2D;
+					};
+					79A19B3A299DA4E700473D2D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 79A19B1A299DA4E500473D2D;
+					};
+				};
+			};
+			buildConfigurationList = 79A19B16299DA4E500473D2D /* Build configuration list for PBXProject "Chevula_CalculatorApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A19B12299DA4E500473D2D;
+			productRefGroup = 79A19B1C299DA4E500473D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A19B1A299DA4E500473D2D /* Chevula_CalculatorApp */,
+				79A19B30299DA4E700473D2D /* Chevula_CalculatorAppTests */,
+				79A19B3A299DA4E700473D2D /* Chevula_CalculatorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A19B19299DA4E500473D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A19B2B299DA4E700473D2D /* LaunchScreen.storyboard in Resources */,
+				79A19B28299DA4E700473D2D /* Assets.xcassets in Resources */,
+				79A19B26299DA4E500473D2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A19B2F299DA4E700473D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A19B39299DA4E700473D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A19B17299DA4E500473D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A19B23299DA4E500473D2D /* ViewController.swift in Sources */,
+				79A19B1F299DA4E500473D2D /* AppDelegate.swift in Sources */,
+				79A19B21299DA4E500473D2D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A19B2D299DA4E700473D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A19B36299DA4E700473D2D /* Chevula_CalculatorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A19B37299DA4E700473D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A19B40299DA4E700473D2D /* Chevula_CalculatorAppUITests.swift in Sources */,
+				79A19B42299DA4E700473D2D /* Chevula_CalculatorAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A19B33299DA4E700473D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A19B1A299DA4E500473D2D /* Chevula_CalculatorApp */;
+			targetProxy = 79A19B32299DA4E700473D2D /* PBXContainerItemProxy */;
+		};
+		79A19B3D299DA4E700473D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A19B1A299DA4E500473D2D /* Chevula_CalculatorApp */;
+			targetProxy = 79A19B3C299DA4E700473D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79A19B24299DA4E500473D2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A19B25299DA4E500473D2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79A19B29299DA4E700473D2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A19B2A299DA4E700473D2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A19B43299DA4E700473D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79A19B44299DA4E700473D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A19B46299DA4E700473D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chevula_CalculatorApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chevula_CalculatorApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chevula-CalculatorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		79A19B47299DA4E700473D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chevula_CalculatorApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chevula_CalculatorApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chevula-CalculatorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		79A19B49299DA4E700473D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chevula-CalculatorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chevula_CalculatorApp.app/Chevula_CalculatorApp";
+			};
+			name = Debug;
+		};
+		79A19B4A299DA4E700473D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chevula-CalculatorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chevula_CalculatorApp.app/Chevula_CalculatorApp";
+			};
+			name = Release;
+		};
+		79A19B4C299DA4E700473D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chevula-CalculatorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chevula_CalculatorApp;
+			};
+			name = Debug;
+		};
+		79A19B4D299DA4E700473D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Chevula-CalculatorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chevula_CalculatorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A19B16299DA4E500473D2D /* Build configuration list for PBXProject "Chevula_CalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A19B43299DA4E700473D2D /* Debug */,
+				79A19B44299DA4E700473D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A19B45299DA4E700473D2D /* Build configuration list for PBXNativeTarget "Chevula_CalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A19B46299DA4E700473D2D /* Debug */,
+				79A19B47299DA4E700473D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A19B48299DA4E700473D2D /* Build configuration list for PBXNativeTarget "Chevula_CalculatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A19B49299DA4E700473D2D /* Debug */,
+				79A19B4A299DA4E700473D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A19B4B299DA4E700473D2D /* Build configuration list for PBXNativeTarget "Chevula_CalculatorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A19B4C299DA4E700473D2D /* Debug */,
+				79A19B4D299DA4E700473D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A19B13299DA4E500473D2D /* Project object */;
+}
